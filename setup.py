@@ -1,13 +1,16 @@
 #!/usr/bin/env python
 """
-Setup script for Graphem package.
-Note: This setup.py is provided for backward compatibility.
-For modern Python packaging, pyproject.toml is the recommended approach.
+Setup script for Graphem-JAX package.
 """
 
+from pathlib import Path
 from setuptools import setup, find_packages
 
-# Read requirements from requirements.txt
+# Read the long description from README.md
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
+# Install requirements
 required = ["jax>=0.3.0",
             "jaxlib>=0.3.0",
             "numpy>=1.21.0",
@@ -23,13 +26,14 @@ required = ["jax>=0.3.0",
             "snakeviz>=2.2.0",
             "tensorboard>=2.10.0",
             "tqdm>=4.66.0",
-            "pyinstrument>=5.0.0"]
+            "pyinstrument>=5.0.0",
+            "tabulate>=0.9.0"]
 
 setup(
     name="graphem-jax",
-    version="0.0.1.post1",
+    version="0.0.2",
     description="A graph embedding library based on JAX",
-    author="Igor Rivin, Alexander Kolpakov",
+    author="Alexander Kolpakov, Igor Rivin",
     packages=find_packages(),
     install_requires=required,
     python_requires=">=3.8",
