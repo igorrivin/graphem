@@ -14,6 +14,9 @@
   <a href="https://pypi.org/project/graphem-jax/">
     <img src="https://img.shields.io/pypi/v/graphem-jax.svg" alt="PyPI"/>
   </a>
+  <a href="https://pypi.org/project/graphem-jax/">
+    <img src="https://img.shields.io/pypi/dm/graphem-jax" alt="PyPI Downloads">
+  </a>
   <a href="https://github.com/sashakolpakov/graphem/actions/workflows/pylint.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/sashakolpakov/graphem/pylint.yml?branch=main&label=CI&logo=github" alt="CI"/>
   </a>
@@ -155,7 +158,8 @@ See [contributing guide](https://sashakolpakov.github.io/graphem/contributing.ht
 
 ## Citation
 
-If you use GraphEm in research, please cite our work (paper forthcoming).
+If you use GraphEm in research, please cite our work [![arXiv](https://img.shields.io/badge/arXiv-2506.07435-b31b1b.svg)](https://arxiv.org/abs/2506.07435)
+
 
 ## License
 
