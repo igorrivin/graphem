@@ -41,7 +41,7 @@ This paper proposes a force layout algorithm that leverages a Laplacian-based in
 
 We use Spearman's $\rho$ correlation instead of Pearson's correlation as the relationship between radial ordering and centrality is not necessarily linear (as the force layout is highly non-linear), and because what matters most is the ordering, not the actual distance or centrality values. 
 
-Confidence intervals and $p$-values are obtained by boostrapping with $N=1000$ replicates. More benchmarks for other graph families and embedding dimensions are available in the whitepaper [@graphem-arxiv].
+Confidence intervals and $p$-values are obtained by boostrapping with $N=1000$ replicates. More benchmarks for other graph families and embedding dimensions are available in the @graphem-arxiv whitepaper.
 
 \newpage
 
