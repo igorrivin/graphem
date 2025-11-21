@@ -58,7 +58,7 @@ From source:
 pip install git+https://github.com/igorrivin/graphem.git
 ```
 
-## Quick Start
+## Quick Start [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/igorrivin/graphem/blob/main/examples/graphem_notebook.ipynb)
 
 ### Graph Embedding
 
@@ -118,10 +118,6 @@ ge.report_full_correlation_matrix(
     results['node_load']
 )
 ```
-### Google Colab Notebook
-
-You can check out most of the graphem features in Google Colab by running the demo notebook [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/igorrivin/graphem/blob/main/examples/graphem_notebook.ipynb)
-
 
 ## Key Components
 
